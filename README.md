@@ -26,6 +26,8 @@ Detailed instructions on how to run the script are reported at the beginning of 
 - HOMO beta (hartree)
 - LUMO beta (hartree)
 
+**Cite as:
+J.G. Vitillo, 'gaussian_output_dft_energies.sh', https://github.com/jennygvitillo/qm_gaussian_output_dft_energies (2025).**
 
 
 *Italiano*
