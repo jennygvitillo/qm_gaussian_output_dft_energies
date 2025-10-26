@@ -1,4 +1,4 @@
-# qm_gaussian_output_energies.sh
+# qm_gaussian_output_dft_energies.sh
 
 *English*
 **Bash** **Linux only** script to parse Gaussian 16 output files for DFT calculations, including TD. Extracts energies (SCF, TD-DFT, thermochemistry) and HOMO-LUMO orbitals. Processes all .log/.out files in directory, outputs CSV.
