@@ -1,7 +1,8 @@
 # qm_gaussian_output_dft_energies.sh
 
 *English*
-**Bash** **Linux only** script to parse Gaussian 16 output files for DFT calculations, including TD. Extracts energies (SCF, TD-DFT, thermochemistry) and HOMO-LUMO orbitals. Processes all .log/.out files in directory, outputs CSV.
+**Bash** **Linux only** script to parse Gaussian 16 output files for DFT calculations, including TD. Extracts energies (SCF, TD-DFT, thermochemistry) and HOMO-LUMO orbitals.
+Processes all .log/.out files in directory, outputs one CSV file (having TXT extension).
 - Extracts SCF energy, TD-DFT energy (if present)
 - **Frequency calculation check** - detects if frequencies were computed and checks for imaginary values
 - Extracts zero-point energy, enthalpy, and free Gibbs energy **Requires frequency calculation**
@@ -10,11 +11,25 @@
 - Output file with date prefix (YYYYMMDD_gaussian_results.txt) saved in current directory
 - No external dependencies
 
-Detailed instructions on how to run the script are reported at the beginning of the file.
+Detailed instructions on how to run the script are reported at the beginning of the script (file: qm_gaussian_output_dft_energies.sh).
+
+*Output columns of the CSV file:*
+File name
+Frequencies (OK/error/not present)
+E (hartree)
+E TD-HF/TD-DFT (hartree)
+E+ZPE (Hartree)
+H (Hartree)
+G (Hartree)
+HOMO alpha (hartree)
+LUMO alpha (hartree)
+HOMO beta (hartree)
+LUMO beta (hartree)
+
 
 
 *Italiano*
-Script **bash** **Linux** per analizzare file output di Gaussian 16 per conti DFT, anche TD. Estrae energie e orbitali HOMO-LUMO. Elabora automaticamente tutti i file .log/.out nella directory.
+Script **bash** **Linux** per analizzare file output di Gaussian 16 per conti DFT, anche TD. Estrae energie e orbitali HOMO-LUMO. Elabora automaticamente tutti i file .log/.out nella directory e salva i risultati in un file CSV (ossia valori separati da virgola) ma con estensione TXT.
 - Estrae energie SCF, TD-DFT (if present)
 - **Controllo calcolo delle frquenze** - verifica se le frequenze sono state calcolate e se ci sono valori immaginari
 - Estrae energia con zero-point, entalpia e energia libera di Gibbs **Richiede calcolo frequenze**
@@ -23,4 +38,4 @@ Script **bash** **Linux** per analizzare file output di Gaussian 16 per conti DF
 - File di output con prefisso data (YYYYMMDD_gaussian_results.txt) salvato nella directory corrente
 - Nessuna dipendenza esterna
 
-Istruzioni dettagliate su come usare lo script sono riportate nella parte iniziale dello script stesso.
+Istruzioni dettagliate su come usare lo script sono riportate nella parte iniziale dello script stesso (file: qm_gaussian_output_dft_energies.sh).
