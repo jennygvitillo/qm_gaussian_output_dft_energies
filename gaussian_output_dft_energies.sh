@@ -32,6 +32,8 @@
 # - "Frequencies" (frequency calculation status)
 #
 # Usage:
+# 0. Download the file gaussian_output_dft_energies.sh and copy it to the folder where you need it
+#
 # 1. Make the script executable:
 #    chmod +x gaussian_output_dft_energies.sh
 #
@@ -43,10 +45,9 @@
 #    Method B - If script is in different directory:
 #    /path/to/script/gaussian_output_dft_energies.sh
 #
-#    Method C - If script is in your PATH (see point 3. Having the script in the path is convenient
-#    because then can be run simply writing:
+#    Method C - If script is in your PATH (see point 3 on how to have the script in your PATH). Having the script in the path is convenient
+#    because you can store all the scripts in a common folder and then you can run the present one simply writing:
 #    gaussian_output_dft_energies.sh
-#    )
 #
 # 3. Optional: Add script to PATH for easy access
 #    To make the script available from any directory:
