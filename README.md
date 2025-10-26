@@ -14,17 +14,17 @@ Processes all .log/.out files in directory, outputs one CSV file (having TXT ext
 Detailed instructions on how to run the script are reported at the beginning of the script (file: qm_gaussian_output_dft_energies.sh).
 
 *Output columns of the CSV file:*
-File name
-Frequencies (OK/error/not present)
-E (hartree)
-E TD-HF/TD-DFT (hartree)
-E+ZPE (Hartree)
-H (Hartree)
-G (Hartree)
-HOMO alpha (hartree)
-LUMO alpha (hartree)
-HOMO beta (hartree)
-LUMO beta (hartree)
+- File name
+- Frequencies (OK/error/not present)
+- E (hartree)
+- E TD-HF/TD-DFT (hartree)
+- E+ZPE (hartree)
+- H (hartree)
+- G (hartree)
+- HOMO alpha (hartree)
+- LUMO alpha (hartree)
+- HOMO beta (hartree)
+- LUMO beta (hartree)
 
 
 
