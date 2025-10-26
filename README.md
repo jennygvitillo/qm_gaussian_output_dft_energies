@@ -32,7 +32,7 @@ Detailed instructions on how to run the script are reported at the beginning of 
 *Italiano*
 Script **bash** **Linux** per analizzare file output di Gaussian 16 per conti DFT, anche TD. Estrae energie e orbitali HOMO-LUMO. Elabora automaticamente tutti i file .log/.out nella directory e salva i risultati in un file CSV (ossia valori separati da virgola) ma con estensione TXT.
 - Estrae energie SCF, TD-DFT (if present)
-- **Controllo calcolo delle frquenze** - verifica se le frequenze sono state calcolate e se ci sono valori immaginari
+- **Controllo calcolo delle frequenze** - verifica se le frequenze sono state calcolate e se ci sono valori immaginari
 - Estrae energia con zero-point, entalpia e energia libera di Gibbs **Richiede calcolo frequenze**
 - Estrae energie orbitali HOMO e LUMO per spin alpha e beta
 - Elaborazione automatica di tutti i file `.log` e `.out` nella directory corrente
