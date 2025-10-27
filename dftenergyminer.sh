@@ -14,7 +14,7 @@
 # Author: Jenny G. Vitillo (University of Insubria) and DeepSeek
 #
 # Cite as:
-# J.G. Vitillo, 'gaussian_output_dft_energies.sh', https://github.com/jennygvitillo/qm_gaussian_output_dft_energies (2025).
+# J.G. Vitillo, 'dftenergyminer.sh', https://github.com/jennygvitillo/dftenergyminer (2025).
 #
 # DATA EXTRACTION:
 # - SCF energy: always extracted if present
@@ -32,26 +32,26 @@
 # - "Frequencies" (frequency calculation status)
 #
 # Usage:
-# 0. Download the file gaussian_output_dft_energies.sh and copy it to the folder where you need it
+# 0. Download the file dftenergyminer.sh and copy it to the folder where you need it
 #
 # 1. Make the script executable:
-#    chmod +x gaussian_output_dft_energies.sh
+#    chmod +x dftenergyminer.sh
 #
 # 2. Run the script (choose one method):
 #
 #    Method A - If script is in current directory:
-#    ./gaussian_output_dft_energies.sh
+#    ./dftenergyminer.sh
 #
 #    Method B - If script is in different directory:
-#    /path/to/script/gaussian_output_dft_energies.sh
+#    /path/to/script/dftenergyminer.sh
 #
 #    Method C - If script is in your PATH (see point 3 on how to have the script in your PATH). Having the script in the path is convenient
 #    because you can store all the scripts in a common folder and then you can run the present one simply writing:
-#    gaussian_output_dft_energies.sh
+#    dftenergyminer.sh
 #
 # 3. Optional: Add script to PATH for easy access
 #    To make the script available from any directory:
-#    sudo cp gaussian_output_dft_energies.sh /usr/local/bin/
+#    sudo cp dftenergyminer.sh /usr/local/bin/
 #    OR add this to ~/.bashrc: export PATH=$PATH:/path/to/script/directory
 #
 # The script will process all .log and .out files in the CURRENT WORKING DIRECTORY
