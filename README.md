@@ -37,7 +37,7 @@ Output columns:
 - LUMO beta (hartree)
 
 ## Citation
-J.G. Vitillo, 'dftenergyminer.sh', https://github.com/jennygvitillo/dftenergyminer (2025).**
+J.G. Vitillo, 'dftenergyminer.sh', https://github.com/jennygvitillo/dftenergyminer (2025).
 
 ## Italiano
 Script **bash** **Linux** per analizzare file output di Gaussian 16 per conti DFT, anche TD. Estrae energie e orbitali HOMO-LUMO. Elabora automaticamente tutti i file .log/.out nella directory e salva i risultati in un file CSV (ossia valori separati da virgola) ma con estensione TXT.
